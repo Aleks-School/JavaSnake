@@ -1,0 +1,36 @@
+#base {
+    -fx-background-color: rgb(30, 30, 30);
+}
+
+#mode {
+    -fx-text-fill: white;
+}
+
+.button {
+    -fx-font-size: 20;
+    -fx-font-family: "Minecraftia";
+    -fx-text-overrun: "clip";
+    -fx-background-radius: 30 30 30 30;
+    -fx-border-radius: 30 30 30 30;
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-background-radius: 0;
+    -fx-background-color: transparent;
+}
+
+.button:hover {
+    -fx-text-fill: rgb(255, 255, 255);
+    -fx-cursor: hand;
+}
+
+#easy {
+    -fx-text-fill: rgb(0, 255, 0);
+}
+
+#normal {
+    -fx-text-fill: rgb(255, 225, 0);
+}
+
+#hard {
+    -fx-text-fill: rgb(200, 0, 0);
+}
